@@ -6,8 +6,7 @@
 
 ### Steps
 1. Create a virtual environment:
-
-#### macOS / Linux
+using .venu "python -m venv .venv"
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -19,4 +18,4 @@ git add .
 Step 3: Commit your changescommit the 3 convetional messages 
 git add .
 git commit -m "Add environment setup and project structure"
-then push to the bracnh and mearge them by comparing wait for ci check ups 
+then push to the bracnh and mearge them by comparing pull reguest wait for ci check ups 
